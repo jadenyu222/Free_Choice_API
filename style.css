@@ -1,0 +1,24 @@
+.input{
+
+}
+.header {
+color: cadetblue;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 50px;
+}
+.subheader{
+    color: cadetblue;
+    font-family: Century , sans-serif;
+    font-size: 15px;
+}
+.listHeader{
+    font-weight: bold;
+    font-size: 20px;
+}
+.display{
+color: #9368be;
+    font-family: Century, sans-serif;
+}
+body{
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars Search and list</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="header" align="center" class="header">Star Wars Search Engine</div>
+<div id="subheader" align="center" class="subheader"> Uses Star Wars API</div>
+<div align='center' id="selectDiv">
+    <select id="selectBox">
+    <option id="films" value="films">Films</option>
+    <option id="people" value="people">People</option>
+    <option id="planets" value="planets">Planets</option>
+    <option id="species" value="species">Species</option>
+    <option id="starships" value="starships">Starships</option>
+    <option id="vehicles" value="vehicles">Vehicles</option>
+    </select>
+    <select class="searchlist">
+    <option class="searchlist" id="search" value="search">search name</option>
+    <option class="searchlist"id="list" value="list">list objects</option>
+    </select>
+    <br>
+    <div id="tempInputA" ><input id="searchInput" placeholder="Search Name"> <button type="button" class="btn btn-outline-primary" id="searchButton">Search</button></div><div id="tempInputB" ><button type="button" class="btn btn-outline-primary" id="listButton" >List Category</button></div></div>
+<div id="subText" class="display"> </div>
+
+</body>
+</html>
